@@ -1,0 +1,114 @@
+/*相同li左右排列样式*/
+.ModuleLi{padding: 1rem;}
+.ModuleLi ul{background: #ffffff;padding: 1rem 2rem 1rem 2rem;}
+.ModuleLi ul li{border-bottom: 1px solid #E7E7E7;min-height: 3.5rem;line-height: 3.5rem;font-size: 1.2rem;color: #757781; }
+.ModuleLi ul li span{float: right}
+.ModuleLi ul li:last-child{border-bottom: none}
+
+.moneyWithDrawal{color:#757781;font-size: 1.2rem; }
+.moneyWithDrawal p span{color: #ff0000;padding-right: 5px;}
+
+/*模态框样式*/
+.ModelPopBox{background: rgba(0,0,0,0.6);height: 100%;width: 100%; position: absolute;z-index: 2;top:0;left:0;}
+.PopContent{width: 60%;margin: 0 auto;background: #ffffff;border-radius: 5px; padding-top: 1rem;  padding-bottom: 2rem; left: 20%; top:42%; position: absolute;-webkit-animation:bounceIn .5s .1s ease both;-moz-animation:bounceIn .5s .1s ease both; }
+.PopContentText{font-size: 1.3rem;text-align: center;border-bottom: 1px solid #eeeeee;width: 80%;margin: 0 auto;padding-bottom: 1rem;}
+.PopBtnBox{padding-top: 2rem;}
+.PopBtn{padding: 0.5rem 2rem 0.5rem 2rem;font-size: 1.3rem;background: #44a0fe;border-radius: 2rem;color: #ffffff;}
+
+@-webkit-keyframes bounceIn{
+    0%{opacity:0;
+        -webkit-transform:scale(.1)}
+    100%{opacity:1;-webkit-transform:scale(1)}
+}
+@-moz-keyframes bounceIn{
+    0%{opacity:0;-moz-transform:scale(.1)}
+    100%{opacity:1;-moz-transform:scale(1)}
+}
+/*下载页面*/
+.driverDownloadBox{background: #ffffff url("../../assets/images/passenger/download/house_bg.png")  center no-repeat; width: 100%; height: 100%; background-size: 100% auto;display: flex; flex-direction: column; }
+.downdriver_pic{padding-top: 4rem}
+.downdriver_pic img{width:35%}
+.house_bg{padding-top:3rem;text-align: center}
+.house_bg img{width: 100%}
+.downDriverBtnBox{width: 90%; margin: 0 auto;padding-bottom:3rem;}
+.downDriverBtnBox a{margin-right:3%;margin-left: 3%;}
+.downDriverBtnBox a img{width: 100%}
+
+.yddownload_pic{position: absolute;z-index: 2;top: 0; padding-right: 2rem;}
+.yddownload_pic{background: rgba(0,0,0,0.6);height: 100%;text-align: right;}
+.yddownload_pic img{width:75%;;margin-top: 1rem;}
+
+
+
+/*邀请码页面样式*/
+.bigBox{height: 100%; overflow-y: scroll;}
+.inviteCode{background-size: 100% 100%; display: flex; flex-direction: column;}
+.dirverBox .inviteCode{background: url("../images/passenger/invitationCode/driver_bg.png") no-repeat; background-size: 100% 100%;}
+.inviteCode .outsideBox{/*flex: 1;*/ position: relative;}
+.inviteCode .textPic img{width: 85%; margin-top: 2rem;}
+.inviteCode .codebigBox{width: 83%; height:24rem; border-radius: 1rem; margin: 4rem auto; background-color: #ffba2a; display: flex; align-items: center; box-shadow: 0 0 10px 3px #0000002b;}
+
+.dirverBox .inviteCode .codebigBox{background-color: #5287FF;}
+.width90{width: 90%;}
+.inviteCode .middleBox{height: 22rem; width: 93%; background-color: #fff; border-radius: 0.5rem; display: flex; align-items: center;}
+.lastBox{height: 95%; width: 95%; position: relative; text-align: center; display: flex; flex-direction: column; align-items: center; background-color: #fff; border-radius: 0.5rem; border: 2px dashed #FD5900;}
+.dirverBox .inviteCode .lastBox{border: 2px dashed #8288FF;}
+.lastBox input{width: 80%; height: 25%; margin: 2rem auto; text-align: center; font-size: 2rem; border: 2px solid #FF2364; background-color: #FFE8E8; border-radius: 0.5rem;outline: none}
+.dirverBox .lastBox input{border: 2px solid #5287FF; background-color: #E9F4FF;}
+.lastBox .lastBoxText{font-size: 2rem; font-weight: bold; color: #FF2364; margin: 1rem 0;}
+.dirverBox .lastBox .lastBoxText{color:#5287FF;}
+.bindingBtn img{width: 33%; position: absolute; top: 22rem; bottom: 0; margin: 0 auto; left: 0; right: 0;}
+
+/*活动规则*/
+.activiteRule{background: url("../images/passenger/invitationCode/bg_piRulec.png") repeat;  padding: 1rem 0;}
+.activiteRule .card-header{background: #5488F2;font-size: 1.3rem;color: #ffffff}
+.card-body{background: #ffffff;padding: 1rem;line-height: 2rem}
+.activiteRule .JoinStep{font-size: 3rem; color:#D5DFFB;}
+.invitateRuleDriver .JoinStep{color:#FF8F34 ;}
+.invitateRuleDriver .card-header{background: #FFEFE0; color:#FF5634 ;}
+.activiteRuleCon{width: 90%; margin: 0 auto; margin-bottom: 1rem; box-shadow: 0 1px 10px rgba(0,0,0,.3); color:#80828D; border-radius: 0.5rem;}
+.flexBox{display: flex; align-items: flex-end;}
+.flexBox div img{width: 100%}
+.inviteCode2{height: 100%;}
+
+/*乘客邀请乘客*/
+.passengerReg{display: flex; flex-direction: column; height: 100%;}
+.passengerRegTOP img{width: 100%;}
+.p_InviteCode{flex: 1;  padding: 1rem 0; position: relative;}
+.p_inviteHeng{height: 1.7rem; width: 80%; background-color: #e88d36; margin: 0 auto; margin-top: 1rem; border-radius: 5px;}
+
+.p_InviteCodeCon{width: 76%; /*min-height: 40rem;*/ padding: 2rem 0; margin: 0 auto; background:url("../images/passenger/invitationCode/shape_pic.png"); background-size: 100% 100%; display: flex; flex-direction: column; justify-content: space-around; align-items: center; /*position: absolute;*/ /*right: 0;*/ /*left: 0;*/ /*top: 3rem;*/ margin-top: -1rem;}
+.p_InviteCodeConTop{height: 16rem;}
+.p_InviteCodeConTop div{text-align: center;}
+.p_CodeCon{color:#0081F6 ; font-size: 3rem; padding-top: 1rem;}
+.p_InviteHeader{color: #74777E; font-size: 1.8rem;}
+.downloadImg{width: 14rem; height: 14rem;}
+
+.popover{width: 13rem; height: 4rem; font-size: 1.5rem; left: 0 !important; right: 0 !important; line-height: 4rem; margin: 0 auto; top: 0 !important; position: relative;z-index: 3}
+
+/*绑定邀请码活动规则*/
+.bindActiviteRule{margin-top: 7rem;}
+.hunguanImg{width: 35%; margin: 0 auto; margin-bottom: 2rem;}
+.hunguanImg img{width: 100%;padding-top: 1.8rem}
+.bindActRuleCon{background: url("../images/passenger/invitationCode/kuang.png") no-repeat; background-size: 100% 100%; width: 90%;  margin: 0 auto; margin-top: 2rem;}
+.bindActiviteRuleDriver .bindActRuleCon{background: url("../images/passenger/invitationCode/kuangDriver.png") no-repeat; background-size: 100% 100%;}
+.bindActRuleCon p{ color: #74777e; /* line-height: 2rem; */ margin-bottom: 0.5rem;}
+.bindActRuleText{padding: 1rem 2.5rem;font-size: 1.1rem; line-height: 2rem;}
+
+
+.skipBox{color: #ffffff;font-size: 1.3rem;text-decoration: none;line-height: 3rem; }
+.skipBox span{text-decoration: none; border-bottom: 1px solid #ffffff;}
+
+
+/*用户协议、评分规则等样式*/
+.RuleBox dl{background: #ffffff;margin-bottom: 1rem;}
+.toggleTitle{background:url("../images/passenger/icon/toggleIcon1.jpg") 96% no-repeat; padding: 1rem;font-size: 1.4rem;border-bottom: 1px solid #eeeeee;border-top: 1px solid #eeeeee}
+.toggleTitle span{width: 1.5rem;display: inline-block;margin-right: 0.5rem}
+.toggleTitle span img{width: 100%; vertical-align: middle;margin-top: -0.2rem;}
+.RuleBox dl dt{padding: 1rem 2rem 1rem 2rem; display: none;height: 0;}
+.RuleBox dl dt h3{font-size: 1.3rem; padding-bottom: 0.5rem;}
+.RuleBox dl dt p{font-size: 1.2rem; color: #666666;line-height: 2rem;}
+.RuleBox dl.active dt{display: block;height: 100%;}
+.RuleBox dl.active dd.toggleTitle{background:url("../images/passenger/icon/toggleIcon2.jpg") 96% no-repeat;}
+
+.rule-header{font-size: 1.3rem;text-align: center;padding-top: 1rem;padding-bottom: 1rem;color: #222231}

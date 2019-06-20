@@ -1,0 +1,259 @@
+body,html{
+  height: 100% ;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  background: #FAFAFA;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,input,textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font: inherit;
+  text-align: left;
+  font-family: "Microsoft YaHei","Heiti", "Helvetica", "HelveticaNeue", "Verdana", "sans-serif";
+}
+ul,li,p{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html{font-size: 12px;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: ".";clear: both;height: 0;}
+* html .clearfix {zoom: 1;}
+
+/*公共样式*/
+.fl{float: left;}
+.fr{float: right;}
+.TextL{text-align: left}
+.TextR{text-align: right}
+.TextC{text-align: center}
+
+.borderT{border-top: 1px solid #eeeeee}
+.borderR{border-right: 1px solid #eeeeee}
+.borderB{border-bottom: 1px solid #eeeeee}
+.borderL{border-left: 1px solid #eeeeee}
+
+.Btn{
+  background: -webkit-linear-gradient(left, #47475F , #222231); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #47475F, #222231); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #47475F, #222231); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #47475F , #222231); /* 标准的语法 */
+  height: 4rem;width: 100%;border-radius: 5px;line-height: 4rem;color: #ffffff;text-align: center;font-size: 1.5rem;letter-spacing:1px
+}
+
+
+/*input placeholder默认颜色*/
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #CECECE;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #CECECE;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #CECECE;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #CECECE;
+}
+
+/*zzx字体样式*/
+.FontS11{font-size: 1.1rem;}
+.FontS12{font-size: 1.2rem;}
+.FontS13{font-size: 1.3rem;}
+.FontS14{font-size: 1.4rem;}
+.FontS15{font-size: 1.5rem;}
+/*line-height*/
+.lineH2{line-height: 2rem;}
+.lineH2D5{line-height: 2.5rem;}
+.lineH3{line-height: 3rem;}
+.lineH4{line-height: 4rem;}
+
+/*padding*/
+.pad1{padding: 1rem;}
+.pad2{padding: 2rem;}
+
+.pad1D5{padding: 1.5rem;}
+.padTD5{padding-top: 0.5rem;}
+.padT1{padding-top: 1rem;}
+.padT1D5{padding-top: 1.5rem;}
+.padT2{padding-top: 2rem;}
+
+.padL1{padding-left: 1rem;}
+.padL1D5{padding-left: 1.5rem;}
+.padL2{padding-left: 2rem;}
+
+.padR1{padding-right: 1rem;}
+.padR2{padding-right: 2rem;}
+
+.padB1{padding-bottom: 1rem;}
+.padB2{padding-bottom: 2rem;}
+
+/*margin*/
+.mar1{margin: 1rem;}
+.marT{margin-top: 1rem;}
+
+.marT1{margin-top: 1rem;}
+.marB1{margin-bottom: 1rem;}
+.marT2{margin-top: 2rem;}
+.marT3{margin-top: 3rem;}
+.marR1{margin-right: 1rem;}
+.marginCenter{
+  margin: 0 auto;
+}
+/*bgcolor*/
+.bgColor1{background: #ffffff}
+.bgcolorW{
+  background-color: #fff;
+}
+
+textarea{width: 93%; border: 1px solid #eeeeee;padding: 1rem; margin: 0 auto;}
+
+/*按钮公共*/
+.contactCustomer{padding: 2rem; padding-top: 3rem;}
+
+
+#app{
+  height: 100%;
+}
+a{
+  text-decoration:none;
+  color:#333;
+}
+.colorRed{
+  background: #F06E6E !important;
+}
+/*******字体颜色******/
+
+.colorGray{
+  color: #80828D;
+}
+.colorY{color: #FFF339;}
+
+/*字体颜色*/
+.orderColor1{color: #fe3636;}
+.orderColor2{color: #407ffd;}
+.orderColor3{color: #AAAAAA;}
+.orderColor4{color: #333333;}
+.orderColor5{color: #666666;}
+.orderColor6{color: #9B9B9B;}
+/*****圆角*****/
+
+.fontW{
+  font-weight: bold;
+}
+
+
+/*禁止H5苹果浏览器在内左右拖动*/
+#app{width: 100%;overflow-x: hidden;}
+/*苹果浏览器滚动*/
+
+.local_scroll{ position:absolute; overflow-y:scroll; overflow-x: hidden; -webkit-overflow-scrolling: touch; top:0; left:0; bottom:0; right:0;height: 98%;}
+.overFlowTouch{ -webkit-overflow-scrolling: touch;}
+/*弹性布局*/
+.flex{display: flex}
+.flexC{flex: 1}
+
+.zucheBd1{border-bottom: 1px solid #EEEEEE}
+
+
+/*隐藏高德logo*/
+#app .amap-copyright, #app .amap-logo{display: none !important}
+
+/*验证成功弹框*/
+.popover{
+  width: 10rem;
+  left: 10rem !important;
+  top: 10rem !important;
+  border-radius: 3rem;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  border: 0;
+}
+
+/*大标题*/
+.bigTitle{font-size: 1.8rem;font-weight: bold;}
+.colorWhite{  color: #fff;}
+
+/*动画*/
+/*.animatedTab,.animatedRouter {
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}*/
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+
